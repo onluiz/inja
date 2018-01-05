@@ -1,6 +1,6 @@
 <template>
   <v-toolbar class="toolbar">
-    <img src="/static/img/logoir.png"/>
+    <img src="../../assets/img/logoir.png"/>
     <div class="toolbar-itens">
       <a href="#void" class="subheading toolbar-item">Cinema</a>
       <a href="#void" class="subheading toolbar-item">Clássicos</a>
