@@ -6,7 +6,7 @@ import router from './router'
 
 /** styles */
 import 'vuetify/dist/vuetify.css'
-import './stylus/styles.styl'
+import './scss/styles.scss'
 
 Vue.use(Vuetify)
 Vue.use(Ingressotify)

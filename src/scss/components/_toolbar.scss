@@ -1,0 +1,43 @@
+
+.l-header {
+  padding-right: 20px;
+  @include flexbox--row(flex-start);
+
+  &__items {
+    position: absolute;
+    @include flexbox--row;
+  }
+
+  &__actions {
+    width: 100%;
+    position: absolute;
+    padding: 20px;
+    @include flexbox--row(flex-end);
+  }
+}
+
+.c-header {
+  height: 126px;
+
+  &__items {
+    width: 100%;
+
+    .o-header__item {
+      margin-left: 20px;
+      background: linear-gradient(to right, #0095da, #0d5e93);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+    }
+  }
+
+  &__actions {
+    .o-header__action {
+      background: linear-gradient(to right, #0095da, #0d5e93);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-left: 5px;
+    }
+  }
+}

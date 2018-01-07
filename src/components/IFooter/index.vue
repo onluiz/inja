@@ -6,8 +6,8 @@
 
 <script>
 export default {
-  name: 'i-footer',
-  data() {
+  name: 'IFooter',
+  data () {
     return {
       fixed: false
     }
