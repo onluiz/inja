@@ -1,9 +1,12 @@
 import Vue from 'vue'
 import Vuetify from 'vuetify'
-import 'vuetify/dist/vuetify.css'
 import Ingressotify from '@/components/Ingressotify/'
 import App from './App'
 import router from './router'
+
+/** styles */
+import 'vuetify/dist/vuetify.css'
+import './stylus/styles.styl'
 
 Vue.use(Vuetify)
 Vue.use(Ingressotify)

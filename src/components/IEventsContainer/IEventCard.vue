@@ -1,6 +1,6 @@
 <template>
   <v-card class="event-card">
-    <v-card-media :src="src" class="event-card-media"></v-card-media>
+    <v-card-media :src="src" class="event__card-media"></v-card-media>
   </v-card>
 </template>
 
@@ -27,7 +27,7 @@ export default {
     background-color: purple;
   }
 
-  .event-card-media {
+  .event__card-media {
     height: 100% !important;
   }
 </style>

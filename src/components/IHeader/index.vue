@@ -25,7 +25,6 @@ export default {
 <style scoped>
   .toolbar {
     /* background-color: #2979ff !important; */
-    /* color: white; */
     height: 126px;
     display: flex;
     display: flex;
