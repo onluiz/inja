@@ -14,7 +14,7 @@
     </div>
     <div class="l-flexbox--end c-header__actions">
       <a href="#void" class="o-link">
-        <v-icon class="o-header__action">search</v-icon>
+        <v-icon class="o-header__action">face</v-icon>
       </a>
       <a href="#void" class="o-link">
         <v-icon class="o-header__action">face</v-icon>
