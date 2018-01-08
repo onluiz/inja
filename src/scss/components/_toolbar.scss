@@ -1,18 +1,14 @@
-
 .l-header {
-  padding-right: 20px;
-  @include flexbox--row(flex-start);
+  display: flex;
+  align-items: center;
 
-  &__items {
-    position: absolute;
-    @include flexbox--row;
+  //vuetify class
+  .toolbar__content {
+    width: 100%;
   }
 
-  &__actions {
+  &__items {
     width: 100%;
-    position: absolute;
-    padding: 20px;
-    @include flexbox--row(flex-end);
   }
 }
 
@@ -20,15 +16,8 @@
   height: 126px;
 
   &__items {
-    width: 100%;
-
     .o-header__item {
       margin-left: 20px;
-      background: linear-gradient(to right, #0095da, #0d5e93);
-      background-clip: text;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-transform: uppercase;
     }
   }
 

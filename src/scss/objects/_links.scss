@@ -1,0 +1,8 @@
+//to be used on <a></a> element
+.o-link {
+  background: linear-gradient(to right, #0095da, #0d5e93);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
+}

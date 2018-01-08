@@ -1,0 +1,19 @@
+%l-flexbox {
+  display: flex;
+  flex: 1, 1, auto;
+}
+
+.l-flexbox--start {
+  @extend %l-flexbox;
+  justify-content: flex-start;
+}
+
+.l-flexbox--center {
+  @extend %l-flexbox;
+  justify-content: center;
+}
+
+.l-flexbox--end {
+  @extend %l-flexbox;
+  justify-content: flex-end;
+}
