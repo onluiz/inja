@@ -7,10 +7,10 @@
     </div>
     <div class="l-header__items l-flexbox--center c-header__items">
       <a href="#void" class="o-header__item o-link subheading">Cinema</a>
-      <a href="#void" class="subheading o-header__item">Clássicos</a>
-      <a href="#void" class="subheading o-header__item">Shows</a>
-      <a href="#void" class="subheading o-header__item">Futebol</a>
-      <a href="#void" class="subheading o-header__item">Infantil</a>
+      <a href="#void" class="o-header__item o-link subheading">Clássicos</a>
+      <a href="#void" class="o-header__item o-link subheading">Shows</a>
+      <a href="#void" class="o-header__item o-link subheading">Futebol</a>
+      <a href="#void" class="o-header__item o-link subheading">Infantil</a>
     </div>
     <div class="l-flexbox--end c-header__actions">
       <a href="#void" class="o-link">
