@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name: 'i-events-container',
+  name: 'IEventsContainer',
   props: {
     title: {
       type: String
@@ -19,28 +19,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-  .events-container {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    overflow: auto;
-    flex: 0 0 auto;
-    height: 150px;
-  }
-
-  .events-container::-webkit-scrollbar {
-    width: 1px;
-    height: 10px;
-  }
-  
-  .events-container::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-  }
-  
-  .events-container::-webkit-scrollbar-thumb {
-    background-color: #0d5e93;
-    outline: 1px solid slategrey;
-  }
-</style>

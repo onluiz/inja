@@ -14,20 +14,3 @@ export default {
   }
 }
 </script>
-
-<style scoped>
-  .event-card {
-    /* display: flex; */
-    flex: 0 0 auto;
-    justify-content: center;
-    align-items: center;
-    height: 100% !important;
-    width: 250px;
-    margin-left: 5px; 
-    background-color: purple;
-  }
-
-  .event__card-media {
-    height: 100% !important;
-  }
-</style>

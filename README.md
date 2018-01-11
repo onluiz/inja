@@ -1,6 +1,36 @@
 # ingressos-ja
 
-> A ingressos-ja site prototype
+> ingresso-ja
+
+## About the project
+
+### Estrutura dos arquivos .vue:
+- Componentes globais ou subcomponentes: CNomeComponente
+- Páginas: PNomePagina
+- Seções de uma página: SNomeSecao
+
+### Ingressotify
+Especialização dos componentes do Vuetify para as necessidades específicas deste projeto. Estrutura de árvore baseada no próprio Vuetify: https://vuetifyjs.com
+
+### SCSS Estruturado utilizando os conceitos de BEM, OOCSS e Namespace. Artigos:
+- Modular CSS Part 1: https://zellwk.com/blog/css-architecture-1/
+- Modular CSS Part 2: https://zellwk.com/blog/css-architecture-2/
+- Modular CSS Part 3: https://zellwk.com/blog/css-architecture-3/
+
+### CSS dentro dos arquivos .vue ou fora?
+Neste projeto decidi manter os arquivos de CSS (ou SCSS nesse caso) separado dos arquivos .vue. Desta forma posso aproveitá-los em outros projetos com mais facilidade. Porém considero as duas abordagens boas e com boas vantagens.
+
+### TODOS
+- Criar mais páginas (=P)
+- Adicionar mais imagens para representar melhor a ideia
+- Adicionar título dos eventos nos cards de eventos e nos banners
+- Aplicar mais comportamento para a tela inicial
+- Gerar versão responsiva (celulares e tablets)
+- Adicionar testes unitários para os componentes
+- Ativar o slint
+
+## Deploy GitHub Pages (com vue-gh-pages)
+- npm run deploy ou yarn deploy
 
 ## Build Setup
 

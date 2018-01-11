@@ -4,7 +4,7 @@
 
 <script>
 export default {
-  name: 'i-label',
+  name: 'ILabel',
   props: {
       icon: {
           type: String

@@ -9,24 +9,18 @@
 
   &__items {
     width: 100%;
-  }
-}
-
-.c-header {
-  height: 126px;
-
-  &__items {
-    .o-header__item {
+    .l-header__item {
       margin-left: 20px;
     }
   }
 
   &__actions {
-    .o-header__action {
-      background: linear-gradient(to right, #0095da, #0d5e93);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
+    .l-header__action {
       margin-left: 5px;
     }
   }
+}
+
+.c-header {
+  height: 126px;
 }
